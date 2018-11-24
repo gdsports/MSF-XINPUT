@@ -378,7 +378,7 @@ void XINPUT::LEDUpdate()
 		uint32_t currentMS = millis();
 	
 		//subtract the previous update time from the current time and see if interval has passed
-		if ((currentMS - _previousMS)>interval)
+		if ((currentMS - _previousMS)>XINPUT_interval)
 		{
 			//Set the led state correctly according to next part of pattern
 			_LEDState = patternCurrent[_LEDtracker];

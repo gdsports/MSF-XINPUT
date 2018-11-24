@@ -35,7 +35,7 @@
 //Defines
 //----------------------------------------------
 //General Declarations
-#define interval 150	//interval in milliseconds to update LED
+#define XINPUT_interval 150	//interval in milliseconds to update LED
 #define USB_TIMEOUT 12840	//packet timeout for USB
 //LED Pattern Defines
 #define ALLOFF 0x00

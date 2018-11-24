@@ -28,7 +28,7 @@ buttonArrayUpdate	KEYWORD2
 ######################################
 # Constants (LITERAL1)
 #######################################
-interval	LITERAL1
+XINPUT_interval	LITERAL1
 USB_TIMEOUT	LITERAL1
 ALLOFF	LITERAL1
 ALLBLINKING	LITERAL1
